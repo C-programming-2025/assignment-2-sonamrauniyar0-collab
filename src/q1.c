@@ -4,3 +4,19 @@ If n > 0, print Positive (case-insensitive, extra messages allowed).
 If n < 0, print Negative (case-insensitive, extra messages allowed).
 If n == 0, print Zero (case-insensitive, extra messages allowed).
 */
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter hte number: ");
+    scanf("%d", &n);
+    if (n > 0) {
+        printf("positive\n");
+    } else if (n < 0) {
+        printf("negative\n");
+    }
+    else {
+        printf("Zero");
+    }
+    return 0;
+}
