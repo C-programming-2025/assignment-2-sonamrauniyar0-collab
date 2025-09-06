@@ -8,11 +8,14 @@ int main()
 
     while(i <= 50) 
     {
+        if(i % 2 == 0)
+         {
         sum += i; 
-         i += 2;
+         }
+         i++;
     }
 
-    printf("The sum of all even numbers from 1 to 50 is: %d\n", sum);
+    printf("%d\n", sum);
 
     return 0;
 }
