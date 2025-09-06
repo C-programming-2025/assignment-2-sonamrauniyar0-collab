@@ -6,7 +6,8 @@ If n == 0, print Zero (case-insensitive, extra messages allowed).
 */
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int n;
     printf("Enter hte number: ");
     scanf("%d", &n);
@@ -16,7 +17,7 @@ int main() {
         printf("negative\n");
     }
     else {
-        printf("Zero");
+        printf("Zero\n");
     }
     return 0;
 }
