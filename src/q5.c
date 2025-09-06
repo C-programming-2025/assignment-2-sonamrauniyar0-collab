@@ -6,7 +6,7 @@ int main()
     int num;
     unsigned long long factorial = 1;
     int i = 1;
-    printf("Emter a positive integer:");
+    printf("Enter a positive integer:");
     scanf("%d", &num);
     
     if (num < 0)
