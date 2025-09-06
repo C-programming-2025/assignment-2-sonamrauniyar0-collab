@@ -11,7 +11,8 @@ int main()
     {
         isprime =0;
     }
-    else{
+    else
+    {
         while (i<=num/2)
         {
             if(num % i ==0)
@@ -23,7 +24,7 @@ int main()
         }
     }
     if(isprime)
-    printf("%d is prime number.\n",num);
+    printf("%d is a prime number.\n", num);
     else
      printf("%d is not a prime number.\n", num);
      return 0;
