@@ -13,10 +13,10 @@ int main()
     }
      else
      {
-        printf("Multiplication table for %d:\n", num);
+        printf("Multiplication table:\n");
          while(i <= 10)
           {
-            printf("%d x %d = %d\n", num, i, num * i);
+            printf("%d\n", num * i);
             i++;
              }
     }

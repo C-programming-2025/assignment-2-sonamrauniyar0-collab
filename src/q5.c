@@ -20,7 +20,7 @@ int main()
             factorial *= i;
             i++;
         }
-        printf("Factorial of %d is: %llu\n", num, factorial);
+        printf("Factorial is: %llu\n", factorial);
         }
     return 0;
 }

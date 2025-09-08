@@ -12,7 +12,7 @@ int main()
         } 
         else 
         {
-        printf("Countdown from %d to 1:\n", num);
+        printf("Countdown:\n");
         for(i = num; i >= 1; i--)
          {
             printf("%d\n", i);

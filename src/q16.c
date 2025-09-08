@@ -20,7 +20,7 @@ int main()
             i++;
         }
         while(i <= num);
-        printf("Factorial od %d is : %llu\n" , num, factorial);
+        printf("Factorialis : %llu\n" , factorial);
     }
     return 0;
     }
